@@ -1,0 +1,134 @@
+/* * {
+  outline: 1px dotted red;
+} */
+
+#wrapper {
+  width: 970px;
+  height: 1000px;
+}
+
+#header {
+  padding: 15px;
+}
+
+#header > h1,
+#header > h2 {
+  display: inline-block;
+  margin: 0px;
+}
+
+#header > h1 {
+  margin-left: 12px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#header > h2 {
+  margin-left: 345px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-content {
+  background-image: radial-gradient(#6f5964, #1b1417);
+  height: 840px;
+  padding: 25px;
+}
+
+#main-content-top > img {
+  width: 400px;
+  display: inline-block;
+  margin-right: 25px;
+  border: 5px solid silver;
+}
+
+#main-content-top > div {
+  width: 480px;
+  height: 272px;
+}
+
+.info-block {
+  display: inline-block;
+  vertical-align: top;
+  background-image: linear-gradient(-90deg, #dacbd9, #ffffff);
+  padding: 0px;
+}
+
+.info-block > p {
+  margin: 10px;
+}
+
+p,
+h3,
+a,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-block > h3,
+#main-content-bottom > .info-block > h4 {
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  background-image: linear-gradient(#b2b2b6, #8b8996, #b2b2b5);
+}
+
+.info-block > a {
+  color: black;
+  margin: 10px;
+}
+
+/* main-content-bottom styles */
+
+#main-content-bottom {
+  padding-top: 25px;
+}
+
+#main-content-bottom > .info-block > img,
+#main-content-bottom > .info-block {
+  width: 287px;
+}
+
+#main-content-bottom > .last-block {
+  margin-right: 0px;
+}
+
+#main-content-bottom > .info-block {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+#main-content-bottom > .info-block.last {
+  margin-right: 0px;
+}
+
+.icons > img {
+  max-width: 35px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+button {
+  margin: 15px auto;
+  display: block;
+  text-align: center;
+  background-color: #407d61;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.02), 5px 5px rgba(0, 0, 0, 0.041);
+}
+
+/* Footer Styles */
+#footer > p > a {
+  color: black;
+  margin: 2px;
+}
+#footer > p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#footer > p > img {
+  max-width: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2px;
+}
